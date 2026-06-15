@@ -1,5 +1,7 @@
 # lesson09 レクチャー
+
 ## Git + GitHub + Vercel
+
 ## 90分レクチャー + 90分演習
 
 ---
@@ -53,13 +55,13 @@ sudo chown -R 501:20 "/Users/ユーザー名/.npm"
 
 ### 前半90分（レクチャー）
 
-| 時間 | 内容 |
-|---|---|
-| 0〜15分 | Git / GitHub / Vercel の概念 |
-| 15〜40分 | git init / add / commit |
+| 時間     | 内容                           |
+| -------- | ------------------------------ |
+| 0〜15分  | Git / GitHub / Vercel の概念   |
+| 15〜40分 | git init / add / commit        |
 | 40〜60分 | GitHub にリポジトリ作成 → push |
-| 60〜80分 | Vercel デプロイ → URL 確認 |
-| 80〜90分 | push → 自動再デプロイを確認 |
+| 60〜80分 | Vercel デプロイ → URL 確認     |
+| 80〜90分 | push → 自動再デプロイを確認    |
 
 ### 後半90分（演習）
 
@@ -75,6 +77,7 @@ sudo chown -R 501:20 "/Users/ユーザー名/.npm"
 
 ### VS Code / GitHub / Vercel の関係
 
+　
 この3つはそれぞれ役割が異なる。
 
 ```
@@ -297,9 +300,9 @@ Vercel と GitHub を連携するために GitHub アプリのインストール
 
 Vercel には2種類の URL が存在する。
 
-| URL | 説明 |
-|---|---|
-| `lesson09-xxx.vercel.app` | 本番 URL。push するたびに自動更新される |
+| URL                                               | 説明                                                         |
+| ------------------------------------------------- | ------------------------------------------------------------ |
+| `lesson09-xxx.vercel.app`                         | 本番 URL。push するたびに自動更新される                      |
 | `lesson09-xxxxxxx-ymmt2106-s-projects.vercel.app` | デプロイごとに発行される固有 URL。古いバージョンが表示される |
 
 **必ず Dashboard の Overview に表示される本番 URL を使うこと。**
